@@ -14,7 +14,7 @@ body{
     
     height: 100vh;
 
-    background: var(--color-bg);
+    background-color: var(--color-bg);
 }
 header{
     flex: 1;
@@ -22,7 +22,7 @@ header{
 
 }
 header .logo{
-    color: var(--primary-color);
+    color: var(--color-primary);
 
     font-size: 6em;
 
@@ -33,15 +33,19 @@ header .logo{
 
 main{
     flex: 2;
-    margin: auto;
+    
     width: 90%;
 }
 
 .login-card{
-    background: var(--card-primary); 
+    background-color: var(--color-card-primary); 
     border: 1px solid var(--borders);
     border-radius: var(--space-sm);
     box-shadow: var(--shadow-card);
+
+    max-width: 400px;
+
+    margin: auto;
 }
 
 .login-form{
@@ -61,7 +65,7 @@ main{
     flex: 1;
     
     text-align: center;
-    color: var(--secondary-text);
+    color: var(--text-secondary);
 
     margin-bottom: var(--space-xs);
 }
@@ -74,14 +78,14 @@ main{
 
     padding: 4px var(--space-xs);
 
-    color: var(--primary-text);
+    color: var(--text-primary);
 }
 .input-field input:focus{
-    outline: 2px solid var(--primary-color);
+    outline: 2px solid var(--color-primary);
 }
 
-#login-btn{
-    background: var(--primary-color);
+.btn-primary{
+    background-color: var(--color-primary);
     color: var(--color-bg);
 
     border: 1px solid var(--borders);
@@ -92,15 +96,15 @@ main{
     margin: var(--space-xs) auto;
     padding: var(--space-xs);
 }
-#new-user-btn{
+.btn-link{
     background: none;
     border: none;
 
     padding: var(--space-xs);
     margin: auto;
 }
-#new-user-btn:hover{
-    color: var(--primary-color);
+.btn-link:hover{
+    color: var(--color-primary);
 
     text-decoration: underline;
 }
@@ -109,6 +113,6 @@ main{
 
 /* GLOBALS  */
 
-button, label, input{
+button, label{
     cursor: pointer;
 }

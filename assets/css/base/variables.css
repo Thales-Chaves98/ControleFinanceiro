@@ -1,15 +1,15 @@
 :root{
     --color-bg: #f1f5f9;
-    --card-primary: #ffffff;
-    --card-secondary: #f8fafc;
-    --primary-text: #0f172a;
-    --secondary-text: #64748b;
-    --primary-color: #4f46e5;
-    --primary-color-hover: #4338ca;
+    --color-card-primary: #ffffff;
+    --color-card-secondary: #f8fafc;
+    --text-primary: #0f172a;
+    --text-secondary: #64748b;
+    --color-primary: #4f46e5;
+    --color-primary-hover: #4338ca;
     --color-accent: #06b6d4;
     --borders: #e2e8f0;
     --alert: #f59e0b;
-    --succes: #16a34a;
+    --success: #16a34a;
     --danger: #ef4444;
 
     --space-xs: 8px;
