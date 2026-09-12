@@ -108,6 +108,15 @@ main{
 
     text-decoration: underline;
 }
+.form-error{
+    text-align: center;
+    font-size: var(--space-md);
+    font-weight: bolder;
+    color: var(--danger);
+
+    margin-top: var(--font-size-xs);
+}
+
 
 .hidden{
     display: none;

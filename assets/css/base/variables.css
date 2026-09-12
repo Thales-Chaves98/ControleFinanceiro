@@ -19,5 +19,12 @@
     --space-xl: 32px;
     --space-xx: 48px;
 
+    --font-size-xs: 8px;
+    --font-size-sm: 12px;
+    --font-size-md: 16px;
+    --font-size-lg: 24px;
+    --font-size-xl: 32px;
+    --font-size-xx: 48px;
+
     --shadow-card: 0 1px 3px rgba(15, 23, 42, 0.08);
 }
