@@ -14,8 +14,8 @@
         <!--<button id="toggle-theme"><span class="material-symbols-outlined">moon_stars</span></button>-->
     </header>
     <main>
-        <section class="login-card">
-            <form class="login-form">
+        <section class="login-card" id="login-card">
+            <form class="login-form" id="login-form">
                 <div class="input-field">
                     <label for="input-username">USUÁRIO:</label>
                     <input type="text" id="input-username">
@@ -26,6 +26,21 @@
                 </div>
                 <button type="submit" class="btn-primary" id="login-btn">ENTRAR</button>
                 <button type="button" class="btn-link" id="new-user-btn">NÃO POSSUI CADASTRO?</button>
+            </form>
+        </section>
+
+        <section class="login-card hidden" id="register-card">
+            <form class="login-form" id="register-form">
+                <div class="input-field">
+                    <label for="create-username">USUÁRIO:</label>
+                    <input type="text" id="create-username">
+                </div>
+                <div class="input-field">
+                    <label for="create-password">SENHA:</label>
+                    <input type="password" id="create-password">
+                </div>
+                <button type="submit" class="btn-primary" id="register-btn">CADASTRAR</button>
+                <button type="button" class="btn-link" id="login-user-btn">JÁ POSSUI CADASTRO?</button>
             </form>
         </section>
 
